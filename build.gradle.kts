@@ -1,6 +1,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val arianeGraphQLVersion = "0.0.4"
+val arianeGraphQLVersion = "0.0.5"
 
 plugins {
     kotlin("jvm") version "1.5.30"
