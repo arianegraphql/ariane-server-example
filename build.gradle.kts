@@ -1,13 +1,13 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val arianeGraphQLVersion = "0.0.2"
+val arianeGraphQLVersion = "0.0.4"
 
 plugins {
     kotlin("jvm") version "1.5.30"
     application
 }
 
-group = "io.idviu"
+group = "com.arianegraphql"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -17,6 +17,7 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1")
     implementation("com.arianegraphql:server:$arianeGraphQLVersion")
+    //implementation("com.arianegraphql:graphql-ktx:$arianeGraphQLVersion")
     implementation("com.arianegraphql:server-ktor:$arianeGraphQLVersion")
 }
 
