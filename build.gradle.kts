@@ -22,7 +22,7 @@ dependencies {
 }
 
 tasks.withType<KotlinCompile>{
-    kotlinOptions.jvmTarget = "13"
+    kotlinOptions.jvmTarget = "1.8"
 }
 
 application {
